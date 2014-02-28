@@ -1,0 +1,57 @@
+com.aokp.swagpapers.ManifestXmlParser:
+    private static final java.lang.String TAG
+com.aokp.swagpapers.Preview:
+    static final java.lang.String TAG
+    public static final int DIALOG_DOWNLOAD_PROGRESS
+com.aokp.swagpapers.Wallpaper:
+    54:54:public java.lang.String getDate()
+com.aokp.swagpapers.WallpaperActivity:
+    protected static final java.lang.String MANIFEST
+    protected static final int THUMBS_TO_SHOW
+    public static final boolean USE_LOCAL_MANIFEST
+    329:335:protected java.lang.String getWallpaperDestinationPath()
+com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment:
+    static final java.lang.String TAG
+    202:211:protected void skipToPage(int)
+    249:249:protected android.widget.Button getPreviousButton()
+com.aokp.swagpapers.WallpaperCategory:
+    35:35:public java.lang.String getId()
+    39:40:public void setId(java.lang.String)
+    47:48:public void setName(java.lang.String)
+    55:56:public void setWallpapers(java.util.List)
+com.botty.swagpapers.BuildConfig
+com.botty.swagpapers.R
+com.botty.swagpapers.R$anim
+com.botty.swagpapers.R$attr
+com.botty.swagpapers.R$color
+com.botty.swagpapers.R$dimen
+com.botty.swagpapers.R$drawable
+com.botty.swagpapers.R$id
+com.botty.swagpapers.R$layout
+com.botty.swagpapers.R$menu
+com.botty.swagpapers.R$mipmap
+com.botty.swagpapers.R$raw
+com.botty.swagpapers.R$string
+com.botty.swagpapers.R$style
+com.koushikdutta.urlimageviewhelper.UrlImageViewHelper:
+    public static final int CACHE_DURATION_INFINITE
+    public static final int CACHE_DURATION_ONE_DAY
+    public static final int CACHE_DURATION_TWO_DAYS
+    public static final int CACHE_DURATION_THREE_DAYS
+    public static final int CACHE_DURATION_FOUR_DAYS
+    public static final int CACHE_DURATION_FIVE_DAYS
+    public static final int CACHE_DURATION_SIX_DAYS
+    public static final int CACHE_DURATION_ONE_WEEK
+    33:33:public UrlImageViewHelper()
+    76:77:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,int)
+    84:85:public static void loadUrlDrawable(android.content.Context,java.lang.String)
+    88:89:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,android.graphics.drawable.Drawable)
+    92:93:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,int,long)
+    96:97:public static void loadUrlDrawable(android.content.Context,java.lang.String,long)
+    100:101:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,android.graphics.drawable.Drawable,long)
+    104:108:private static void setUrlDrawable(android.content.Context,android.widget.ImageView,java.lang.String,int,long)
+    119:120:public static void loadUrlDrawable(android.content.Context,java.lang.String,com.koushikdutta.urlimageviewhelper.UrlImageViewCallback)
+    123:124:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,android.graphics.drawable.Drawable,com.koushikdutta.urlimageviewhelper.UrlImageViewCallback)
+    127:128:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,int,long,com.koushikdutta.urlimageviewhelper.UrlImageViewCallback)
+    131:132:public static void loadUrlDrawable(android.content.Context,java.lang.String,long,com.koushikdutta.urlimageviewhelper.UrlImageViewCallback)
+    135:136:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,android.graphics.drawable.Drawable,long,com.koushikdutta.urlimageviewhelper.UrlImageViewCallback)

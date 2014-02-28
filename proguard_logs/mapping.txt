@@ -1,0 +1,219 @@
+com.aokp.swagpapers.ManifestXmlParser -> com.aokp.swagpapers.a:
+    java.util.ArrayList wallpaperCategories -> a
+    com.aokp.swagpapers.WallpaperCategory currentCategory -> b
+    java.lang.String value -> c
+    android.content.Context mContext -> d
+    java.util.ArrayList parse(java.io.File,android.content.Context) -> a
+    void startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes) -> startElement
+    java.lang.String generateThumbUrl(java.lang.String) -> a
+    void characters(char[],int,int) -> characters
+    void endElement(java.lang.String,java.lang.String,java.lang.String) -> endElement
+com.aokp.swagpapers.NavigationBarCategoryAdapater -> com.aokp.swagpapers.b:
+    android.content.Context mContext -> a
+    java.util.ArrayList mCategories -> b
+    java.util.ArrayList getCategories() -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    int getItemViewType(int) -> getItemViewType
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getViewTypeCount() -> getViewTypeCount
+    boolean hasStableIds() -> hasStableIds
+    boolean isEmpty() -> isEmpty
+    void registerDataSetObserver(android.database.DataSetObserver) -> registerDataSetObserver
+    void unregisterDataSetObserver(android.database.DataSetObserver) -> unregisterDataSetObserver
+    android.view.View getDropDownView(int,android.view.View,android.view.ViewGroup) -> getDropDownView
+com.aokp.swagpapers.Preview -> com.aokp.swagpapers.Preview:
+    java.lang.String link -> a
+    android.app.ProgressDialog mProgressDialog -> b
+    java.lang.String fileDest -> c
+    java.lang.String fileName -> d
+    android.graphics.drawable.Drawable loadedWallpaper -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    java.lang.String getDlDir() -> a
+    java.lang.String getSvDir() -> b
+    android.graphics.Bitmap drawableToBitmap(android.graphics.drawable.Drawable) -> a
+com.aokp.swagpapers.Preview$1 -> com.aokp.swagpapers.c:
+    android.widget.ProgressBar val$progress -> a
+    com.aokp.swagpapers.Preview this$0 -> b
+    void onLoaded(android.widget.ImageView,android.graphics.drawable.Drawable,java.lang.String,boolean) -> a
+com.aokp.swagpapers.Preview$2 -> com.aokp.swagpapers.d:
+    com.aokp.swagpapers.Preview this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.aokp.swagpapers.Preview$3 -> com.aokp.swagpapers.e:
+    com.aokp.swagpapers.Preview this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.aokp.swagpapers.Preview$DownloadFileAsync -> com.aokp.swagpapers.f:
+    com.aokp.swagpapers.Preview this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onProgressUpdate(java.lang.String[]) -> b
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.aokp.swagpapers.Preview$StoreFileAsync -> com.aokp.swagpapers.g:
+    com.aokp.swagpapers.Preview this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onProgressUpdate(java.lang.String[]) -> b
+    void onPostExecute(java.lang.String) -> a
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.aokp.swagpapers.ThumbnailView -> com.aokp.swagpapers.ThumbnailView:
+    android.widget.TextView name -> a
+    android.widget.TextView author -> b
+    android.widget.ImageView thumbnail -> c
+    void init() -> a
+    android.widget.ImageView getThumbnail() -> getThumbnail
+    android.widget.TextView getName() -> getName
+    android.widget.TextView getAuthor() -> getAuthor
+com.aokp.swagpapers.Wallpaper -> com.aokp.swagpapers.h:
+    java.lang.String name -> a
+    java.lang.String author -> b
+    java.lang.String url -> c
+    java.lang.String thumbUrl -> d
+    java.lang.String date -> e
+    int wallpapersCreated -> f
+    int localIndex -> g
+    java.lang.String getName() -> a
+    void setName(java.lang.String) -> a
+    java.lang.String getAuthor() -> b
+    void setAuthor(java.lang.String) -> b
+    java.lang.String getUrl() -> c
+    void setUrl(java.lang.String) -> c
+    java.lang.String getThumbUrl() -> d
+    void setThumbUrl(java.lang.String) -> d
+    void setDate(java.lang.String) -> e
+com.aokp.swagpapers.WallpaperActivity -> com.aokp.swagpapers.WallpaperActivity:
+    java.lang.String TAG -> a
+    java.util.ArrayList categories -> b
+    android.app.ProgressDialog mLoadingDialog -> c
+    com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment mPreviewFragment -> d
+    com.aokp.swagpapers.NavigationBarCategoryAdapater mCategoryAdapter -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void loadPreviewFragment() -> a
+    void setCategory(int) -> a
+    java.lang.String getDlDir(android.content.Context) -> a
+    java.lang.String getSvDir(android.content.Context) -> b
+    java.lang.String getResourceString(int) -> b
+    java.lang.String getResourceString(android.content.Context,int) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.aokp.swagpapers.WallpaperActivity$1 -> com.aokp.swagpapers.i:
+    com.aokp.swagpapers.WallpaperActivity this$0 -> a
+    boolean onNavigationItemSelected(int,long) -> onNavigationItemSelected
+com.aokp.swagpapers.WallpaperActivity$LoadWallpaperManifest -> com.aokp.swagpapers.j:
+    com.aokp.swagpapers.WallpaperActivity this$0 -> a
+    java.util.ArrayList doInBackground(java.lang.Void[]) -> a
+    void onPostExecute(java.util.ArrayList) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment -> com.aokp.swagpapers.k:
+    com.aokp.swagpapers.WallpaperActivity mActivity -> a
+    android.view.View mView -> b
+    int currentPage -> c
+    android.widget.Button back -> d
+    android.widget.Button next -> e
+    android.widget.TextView pageNum -> f
+    com.aokp.swagpapers.ThumbnailView[] thumbs -> g
+    int selectedCategory -> h
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    void setCategory(int) -> a
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    java.util.ArrayList getCategories() -> a
+    com.aokp.swagpapers.Wallpaper getWallpaper(int) -> b
+    void setThumbs() -> b
+    void next() -> c
+    void previous() -> d
+    void jumpTo() -> e
+    android.view.View getThumbView(int) -> c
+    android.widget.Button getNextButton() -> f
+    void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment$1 -> com.aokp.swagpapers.l:
+    com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment$2 -> com.aokp.swagpapers.m:
+    com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment$ThumbnailCallBack -> com.aokp.swagpapers.n:
+    com.aokp.swagpapers.Wallpaper wall -> a
+    int index -> b
+    com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment this$0 -> c
+    void onLoaded(android.widget.ImageView,android.graphics.drawable.Drawable,java.lang.String,boolean) -> a
+com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment$ThumbnailClickListener -> com.aokp.swagpapers.o:
+    com.aokp.swagpapers.Wallpaper wall -> a
+    com.aokp.swagpapers.WallpaperActivity$WallpaperPreviewFragment this$0 -> b
+    void onClick(android.view.View) -> onClick
+com.aokp.swagpapers.WallpaperCategory -> com.aokp.swagpapers.p:
+    int totalCategoryCount -> a
+    int localIndex -> b
+    java.lang.String id -> c
+    java.lang.String name -> d
+    java.util.List wallpapers -> e
+    void addWallpaper(com.aokp.swagpapers.Wallpaper) -> a
+    java.lang.String getName() -> a
+    java.util.List getWallpapers() -> b
+    java.lang.String toString() -> toString
+com.gnexushd.about.About -> com.gnexushd.about.About:
+    android.widget.TextView mSwagPapers -> a
+    android.widget.TextView mCMWall -> b
+    android.widget.TextView mWallApp -> c
+    void onCreate(android.os.Bundle) -> onCreate
+com.gnexushd.about.About$1 -> com.gnexushd.about.a:
+    com.gnexushd.about.About this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.gnexushd.about.About$2 -> com.gnexushd.about.b:
+    com.gnexushd.about.About this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.gnexushd.about.About$3 -> com.gnexushd.about.c:
+    com.gnexushd.about.About this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.koushikdutta.urlimageviewhelper.SoftReferenceHashTable -> com.a.a.a:
+    java.util.Hashtable mTable -> a
+    java.lang.Object put(java.lang.Object,java.lang.Object) -> a
+    java.lang.Object get(java.lang.Object) -> a
+com.koushikdutta.urlimageviewhelper.UrlImageCache -> com.a.a.b:
+    com.koushikdutta.urlimageviewhelper.UrlImageCache mInstance -> b
+    com.koushikdutta.urlimageviewhelper.UrlImageCache getInstance() -> a
+com.koushikdutta.urlimageviewhelper.UrlImageViewCallback -> com.a.a.c:
+    void onLoaded(android.widget.ImageView,android.graphics.drawable.Drawable,java.lang.String,boolean) -> a
+com.koushikdutta.urlimageviewhelper.UrlImageViewHelper -> com.a.a.d:
+    android.content.res.Resources mResources -> a
+    android.util.DisplayMetrics mMetrics -> b
+    boolean mHasCleaned -> c
+    java.util.Hashtable mPendingViews -> d
+    java.util.Hashtable mPendingDownloads -> e
+    int copyStream(java.io.InputStream,java.io.OutputStream) -> a
+    void prepareResources(android.content.Context) -> a
+    android.graphics.drawable.BitmapDrawable loadDrawableFromStream(android.content.Context,java.io.InputStream) -> b
+    void setUrlDrawable(android.widget.ImageView,java.lang.String) -> a
+    void setUrlDrawable(android.widget.ImageView,java.lang.String,int,com.koushikdutta.urlimageviewhelper.UrlImageViewCallback) -> a
+    void setUrlDrawable(android.widget.ImageView,java.lang.String,com.koushikdutta.urlimageviewhelper.UrlImageViewCallback) -> a
+    void setUrlDrawable(android.content.Context,android.widget.ImageView,java.lang.String,int,long,com.koushikdutta.urlimageviewhelper.UrlImageViewCallback) -> a
+    boolean isNullOrEmpty(java.lang.CharSequence) -> a
+    java.lang.String getFilenameForUrl(java.lang.String) -> a
+    void cleanup(android.content.Context) -> b
+    void setUrlDrawable(android.content.Context,android.widget.ImageView,java.lang.String,android.graphics.drawable.Drawable,long,com.koushikdutta.urlimageviewhelper.UrlImageViewCallback) -> a
+    android.graphics.drawable.BitmapDrawable access$000(android.content.Context,java.io.InputStream) -> a
+    java.util.Hashtable access$100() -> a
+    java.util.Hashtable access$200() -> b
+com.koushikdutta.urlimageviewhelper.UrlImageViewHelper$1 -> com.a.a.e:
+    android.content.Context val$context -> a
+    java.lang.String val$url -> b
+    java.lang.String val$filename -> c
+    android.graphics.drawable.Drawable val$defaultDrawable -> d
+    com.koushikdutta.urlimageviewhelper.UrlImageCache val$cache -> e
+    java.util.ArrayList val$downloads -> f
+    com.koushikdutta.urlimageviewhelper.UrlImageViewCallback val$callback -> g
+    android.graphics.drawable.BitmapDrawable doInBackground(java.lang.Void[]) -> a
+    void onPostExecute(android.graphics.drawable.BitmapDrawable) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
