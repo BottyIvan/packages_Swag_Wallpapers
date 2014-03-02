@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.botty.swagpapers"
-    android:versionCode="10"
-    android:versionName="1.0" >
+    android:versionCode="11"
+    android:versionName="1.0.1" >
 
     <original-package android:name="com.aokp.swagpapers" />
     <uses-sdk
@@ -19,7 +19,8 @@
         <activity
             android:name="com.aokp.swagpapers.WallpaperActivity"
             android:label="@string/title_activity_wallpaper"
-            android:theme="@style/BottySwag">
+            android:theme="@style/BottySwag"
+            android:screenOrientation="nosensor">
             <intent-filter>
                 <action android:name="android.intent.action.SET_WALLPAPER" />
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -29,7 +30,7 @@
         </activity>
         <activity
             android:name="com.aokp.swagpapers.Preview"
-            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor"
             android:theme="@style/BottySwag"/>
         <activity android:name=".Vote" />
         <activity android:name="com.gnexushd.about.About"
